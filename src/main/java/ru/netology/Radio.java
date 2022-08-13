@@ -48,13 +48,6 @@ public class Radio {
         return currentStation;
     }
 
-    public int upVolume() {
-        if (currentVolume < 10) {
-            currentVolume = currentVolume + 1;
-        } else currentVolume = 10;
-        return currentVolume;
-    }
-
     public int downVolume() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
